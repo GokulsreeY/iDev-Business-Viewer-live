@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		405F0ECFF0F4DBD51A763464 /* Pods_iDev_Business_Viewer_live.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 542E62A598EC5DE07F350E89 /* Pods_iDev_Business_Viewer_live.framework */; };
+		53413D8E1E29B93300D0E012 /* BusinessesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53413D8D1E29B93300D0E012 /* BusinessesTableViewController.swift */; };
+		53413D901E29B9E900D0E012 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53413D8F1E29B9E900D0E012 /* Business.swift */; };
+		53413D921E29C3FB00D0E012 /* BusinessCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53413D911E29C3FB00D0E012 /* BusinessCell.swift */; };
 		5378E5321E271310005EFA1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5378E5311E271310005EFA1C /* AppDelegate.swift */; };
 		5378E5341E271310005EFA1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5378E5331E271310005EFA1C /* ViewController.swift */; };
 		5378E5371E271310005EFA1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5378E5351E271310005EFA1C /* Main.storyboard */; };
@@ -15,6 +19,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40070F0B77219AC6C8635F7A /* Pods-iDev Business Viewer live.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDev Business Viewer live.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iDev Business Viewer live/Pods-iDev Business Viewer live.debug.xcconfig"; sourceTree = "<group>"; };
+		53413D8D1E29B93300D0E012 /* BusinessesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessesTableViewController.swift; sourceTree = "<group>"; };
+		53413D8F1E29B9E900D0E012 /* Business.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		53413D911E29C3FB00D0E012 /* BusinessCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusinessCell.swift; sourceTree = "<group>"; };
 		5378E52E1E271310005EFA1C /* iDev Business Viewer live.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iDev Business Viewer live.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5378E5311E271310005EFA1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5378E5331E271310005EFA1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +30,8 @@
 		5378E5381E271310005EFA1C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5378E53B1E271310005EFA1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5378E53D1E271310005EFA1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		542E62A598EC5DE07F350E89 /* Pods_iDev_Business_Viewer_live.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iDev_Business_Viewer_live.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62E9E124691F0F519E8EB42B /* Pods-iDev Business Viewer live.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iDev Business Viewer live.release.xcconfig"; path = "Pods/Target Support Files/Pods-iDev Business Viewer live/Pods-iDev Business Viewer live.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				405F0ECFF0F4DBD51A763464 /* Pods_iDev_Business_Viewer_live.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +51,8 @@
 			children = (
 				5378E5301E271310005EFA1C /* iDev Business Viewer live */,
 				5378E52F1E271310005EFA1C /* Products */,
+				A9A5E258EB030B6CD4823B95 /* Pods */,
+				F0CB8CE33C0FB6C178E2FE08 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,8 +73,28 @@
 				5378E5381E271310005EFA1C /* Assets.xcassets */,
 				5378E53A1E271310005EFA1C /* LaunchScreen.storyboard */,
 				5378E53D1E271310005EFA1C /* Info.plist */,
+				53413D8D1E29B93300D0E012 /* BusinessesTableViewController.swift */,
+				53413D8F1E29B9E900D0E012 /* Business.swift */,
+				53413D911E29C3FB00D0E012 /* BusinessCell.swift */,
 			);
 			path = "iDev Business Viewer live";
+			sourceTree = "<group>";
+		};
+		A9A5E258EB030B6CD4823B95 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40070F0B77219AC6C8635F7A /* Pods-iDev Business Viewer live.debug.xcconfig */,
+				62E9E124691F0F519E8EB42B /* Pods-iDev Business Viewer live.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F0CB8CE33C0FB6C178E2FE08 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				542E62A598EC5DE07F350E89 /* Pods_iDev_Business_Viewer_live.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +104,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5378E5401E271310005EFA1C /* Build configuration list for PBXNativeTarget "iDev Business Viewer live" */;
 			buildPhases = (
+				343153F50E35F3E1C551EFB7 /* [CP] Check Pods Manifest.lock */,
 				5378E52A1E27130F005EFA1C /* Sources */,
 				5378E52B1E27130F005EFA1C /* Frameworks */,
 				5378E52C1E27130F005EFA1C /* Resources */,
+				61A99B23069D764F87CEB278 /* [CP] Embed Pods Frameworks */,
+				586D9A81220CEAA1F05B6194 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -131,12 +167,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		343153F50E35F3E1C551EFB7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		586D9A81220CEAA1F05B6194 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iDev Business Viewer live/Pods-iDev Business Viewer live-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		61A99B23069D764F87CEB278 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iDev Business Viewer live/Pods-iDev Business Viewer live-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5378E52A1E27130F005EFA1C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53413D921E29C3FB00D0E012 /* BusinessCell.swift in Sources */,
 				5378E5341E271310005EFA1C /* ViewController.swift in Sources */,
+				53413D901E29B9E900D0E012 /* Business.swift in Sources */,
+				53413D8E1E29B93300D0E012 /* BusinessesTableViewController.swift in Sources */,
 				5378E5321E271310005EFA1C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +343,7 @@
 		};
 		5378E5411E271310005EFA1C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40070F0B77219AC6C8635F7A /* Pods-iDev Business Viewer live.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "iDev Business Viewer live/Info.plist";
@@ -268,6 +356,7 @@
 		};
 		5378E5421E271310005EFA1C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62E9E124691F0F519E8EB42B /* Pods-iDev Business Viewer live.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "iDev Business Viewer live/Info.plist";
@@ -297,6 +386,7 @@
 				5378E5421E271310005EFA1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
